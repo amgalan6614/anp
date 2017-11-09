@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TollBar</class>
+ <widget class="QMainWindow" name="TollBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>255</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculate</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Рабочий стол/w512h5121350249286calculator.png</normaloff>../Рабочий стол/w512h5121350249286calculator.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>281</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/new/prefix1/image4.jpg)</string>
+    </property>
+    <property name="text">
+     <string>Open Calculator</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../Рабочий стол/w512h5121350249286calculator.png</normaloff>../Рабочий стол/w512h5121350249286calculator.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>291</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open PCAP</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>566</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionOpen_Calculator"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionOpen_Calculator">
+   <property name="text">
+    <string>Open Calculator</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actiongrfd">
+   <property name="text">
+    <string>grfd</string>
+   </property>
+  </action>
+  <action name="actiongfd">
+   <property name="text">
+    <string>gfd</string>
+   </property>
+  </action>
+  <action name="actionfg">
+   <property name="text">
+    <string>fg</string>
+   </property>
+  </action>
+  <action name="actionOpen_PCAP">
+   <property name="text">
+    <string>Open_PCAP</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
